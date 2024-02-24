@@ -1,0 +1,11 @@
+(:let ((header-height "185px")
+	   (orange "#FDA925"))
+  (.header-bar
+   :height #(header-height)
+   :display flex
+   :justify-content center
+   :line-height 30%
+   (header
+	:text-align left
+	:padding 2rem
+	:background-color #(orange))))

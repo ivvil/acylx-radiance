@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+	<meta charset="utf-8">
+	<title>SHFT.dev</title>
+	<meta name="author" content="Iván Villagrasa Pérez">
+	<link rel="stylesheet" type="text/css" @href="/static/acylx-radiance/acylx.css" /> <!-- TODO: Port styles to LASS -->
+  </head>
+  <body>
+	<div class="header-bar">
+	  <header>
+		<a href="#" @href="acylx/index"><h1>SHFT.dev</h1></a> <!-- TODO: Href needs to be fixed for radiance -->
+		<h2>A shft into a more open future</h2>
+		<hr>
+	  </header>
+	  <nav>
+		test
+	  </nav>
+	</div>
+
+	<h2>::Feed.</h2>
+
+	<h3>'(Lisp, the language of the '(past future))</h3><br>
+	<p>Lisp is a programming language that originated in the 60s, being one of the first high-level languages still in use, following Fortran. The defining feature of this language is its syntax filled with parentheses, stemming from its origins as a calculus language implementing the ideas of Alonzo Church's lambda calculus. Lisp also pioneered several areas of computer science, such as tree-based data structures, garbage collection, dynamic types, conditionals, higher-order functions, recursion, self-hosting compilers, and the REPL.</p>
+  </body>
+</html>

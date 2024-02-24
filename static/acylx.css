@@ -1,0 +1,10 @@
+.header-bar{
+    height: 185px;
+    display: flex;
+    justify-content: center;
+    line-height: 30%;
+}
+
+.header-bar header{
+    background-color: #FDA925;
+}
