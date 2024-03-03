@@ -1,11 +1,72 @@
+(a
+ :color white
+ :text-decoration none)
+
+
 (:let ((header-height "185px")
-	   (orange "#FDA925"))
+	   (orange-1 "#FDA925")
+	   (grey-1 "#333")
+	   (white-1 "#e6ebe4")
+	   (teal-1 "#cfdfd8")
+	   (teal-2 "#67adb1")
+	   (teal-3 "#3f636b"))
   (.header-bar
    :height #(header-height)
    :display flex
    :justify-content center
-   :line-height 30%
    (header
+	:line-height 30%
 	:text-align left
 	:padding 2rem
-	:background-color #(orange))))
+	:background-color #(orange-1)
+	:padding-left 5%
+	:padding-right 5%
+	:color #(grey-1)
+	(a
+	 :color #(grey-1))
+	(hr
+	 :color #(grey-1))
+	(h1
+	 :font-family Corporation-Games)
+	(.subtitle
+	 :font-family ChakraPetch-Regular
+	 :font-size 1.5em))
+   (nav
+	:padding-left 8%
+	:padding 1%
+	:padding-right 15%
+	:background-color #(teal-3)
+	:color black
+	:font-family ChakraPetch-Regular
+	:display flex
+	:align-items strech
+	:gap 5%))
+  (body
+   :margin 0
+   :background-color #(white-1)
+   :font-family ChakraPetch-Regular)
+  (.container
+   :padding 5%
+   :padding-right 0%
+   :background-color #(teal-2)
+   :clip-path " polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0)"
+   (b
+	:font-size 1.5em
+	:padding-right 1em)
+   (.content
+	:padding-left 5%
+	:padding-top 5%
+	:display flex
+	:flex-direction row
+	:flex-wrap wrap
+	:align-items flex-start
+	(button
+	 :margin-bottom 5%
+	 :flex-basis 90px
+	 :margin-right 5%)))
+  (button
+   :background-color #(teal-1)
+   :text-decoration none
+   :border none
+   :text-align left))
+

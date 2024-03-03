@@ -1,0 +1,64 @@
+@font-face{
+    font-family: ChakraPetch-Bold;
+    src: url("/home/ivvil/quicklisp/local-projects/acylx-radiance/static/assets/fonts/ChakraPetch-Bold.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-BoldItalic;
+    src: url("/home/ivvil/quicklisp/local-projects/acylx-radiance/static/assets/fonts/ChakraPetch-BoldItalic.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-Italic;
+    src: url("/home/ivvil/quicklisp/local-projects/acylx-radiance/static/assets/fonts/ChakraPetch-Italic.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-Light;
+    src: url("/home/ivvil/quicklisp/local-projects/acylx-radiance/static/assets/fonts/ChakraPetch-Light.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-LightItalic;
+    src: url("/home/ivvil/quicklisp/local-projects/acylx-radiance/static/assets/fonts/ChakraPetch-LightItalic.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-Medium;
+    src: url("/home/ivvil/quicklisp/local-projects/acylx-radiance/static/assets/fonts/ChakraPetch-Medium.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-MediumItalic;
+    src: url("/home/ivvil/quicklisp/local-projects/acylx-radiance/static/assets/fonts/ChakraPetch-MediumItalic.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-Regular;
+    src: url("/home/ivvil/quicklisp/local-projects/acylx-radiance/static/assets/fonts/ChakraPetch-Regular.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-SemiBold;
+    src: url("/home/ivvil/quicklisp/local-projects/acylx-radiance/static/assets/fonts/ChakraPetch-SemiBold.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-SemiBoldItalic;
+    src: url("/home/ivvil/quicklisp/local-projects/acylx-radiance/static/assets/fonts/ChakraPetch-SemiBoldItalic.ttf");
+}
+
+@font-face{
+    font-family: "Corporation Games Straight";
+    src: url("/home/ivvil/quicklisp/local-projects/acylx-radiance/static/assets/fonts/Corporation Games Straight.otf");
+}
+
+@font-face{
+    font-family: Corporation Games;
+    src: url("/home/ivvil/quicklisp/local-projects/acylx-radiance/static/assets/fonts/Corporation Games.otf");
+}
+
+@font-face{
+    font-family: Starbirl;
+    src: url("/home/ivvil/quicklisp/local-projects/acylx-radiance/static/assets/fonts/Starbirl.otf");
+}

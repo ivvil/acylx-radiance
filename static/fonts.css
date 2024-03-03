@@ -1,0 +1,64 @@
+@font-face{
+    font-family: ChakraPetch-Bold;
+    src: url("../acylx-radiance/assets/fonts/ChakraPetch-Bold.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-BoldItalic;
+    src: url("../acylx-radiance/assets/fonts/ChakraPetch-BoldItalic.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-Italic;
+    src: url("../acylx-radiance/assets/fonts/ChakraPetch-Italic.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-Light;
+    src: url("../acylx-radiance/assets/fonts/ChakraPetch-Light.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-LightItalic;
+    src: url("../acylx-radiance/assets/fonts/ChakraPetch-LightItalic.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-Medium;
+    src: url("../acylx-radiance/assets/fonts/ChakraPetch-Medium.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-MediumItalic;
+    src: url("../acylx-radiance/assets/fonts/ChakraPetch-MediumItalic.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-Regular;
+    src: url("../acylx-radiance/assets/fonts/ChakraPetch-Regular.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-SemiBold;
+    src: url("../acylx-radiance/assets/fonts/ChakraPetch-SemiBold.ttf");
+}
+
+@font-face{
+    font-family: ChakraPetch-SemiBoldItalic;
+    src: url("../acylx-radiance/assets/fonts/ChakraPetch-SemiBoldItalic.ttf");
+}
+
+@font-face{
+    font-family: Corporation-Games-Straight;
+    src: url("../acylx-radiance/assets/fonts/Corporation Games Straight.otf");
+}
+
+@font-face{
+    font-family: Corporation-Games;
+    src: url("../acylx-radiance/assets/fonts/Corporation Games.otf");
+}
+
+@font-face{
+    font-family: Starbirl;
+    src: url("../acylx-radiance/assets/fonts/Starbirl.otf");
+}
