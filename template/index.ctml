@@ -19,9 +19,9 @@
 			<hr>
 		</header>
 		<nav>
-		  <div class="container">
-			<!-- TODO: FIX THIS FUCKING MESS -->
-			<!-- TODO: Add links -->
+			<div class="container">
+				<!-- TODO: FIX THIS FUCKING MESS -->
+				<!-- TODO: Add links -->
 				<b>::Articles.</b>
 				<div class="content">
 					<button>Programming</button>
@@ -29,6 +29,13 @@
 					<button>Photography</button>
 					<button>Other</button>
 				</div>
+			</div>
+			<div class="container">
+			  <b>::My links.</b>
+			  <div class="content">
+				<button>About me</button>
+				<a href="https://github.com/ivvil"><button>GitHub</button></a>
+			  </div>
 			</div>
 		</nav>
 	</div>
