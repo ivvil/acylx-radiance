@@ -10,8 +10,8 @@
   :version "0.0.1"
   :serial t
   :components ((:file "package")
+			   (:file "genfont-declaration")
                (:file "frontend")
-			   (:lass-file "static/acylx")
-			   (:file "genfont-declaration"))
+			   (:lass-file "static/acylx"))
   :depends-on (:r-clip
 			   :lass))
