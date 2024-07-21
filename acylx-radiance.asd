@@ -12,7 +12,9 @@
   :components ((:file "package")
 			   (:file "genfont-declaration")
                (:file "frontend")
+			   (:file "navbar")
 			   ;; (:lass-file "static/acylx")
 			   )
   :depends-on (:r-clip
-			   :lass))
+			   :lass
+			   :spinneret))
