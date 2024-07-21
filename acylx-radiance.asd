@@ -12,6 +12,7 @@
   :components ((:file "package")
 			   (:file "genfont-declaration")
                (:file "frontend")
-			   (:lass-file "static/acylx"))
+			   ;; (:lass-file "static/acylx")
+			   )
   :depends-on (:r-clip
 			   :lass))

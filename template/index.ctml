@@ -11,10 +11,10 @@
 
 <body>
 
-  	<div class="bg">
+	<div class="bg">
 		:::JUST TOO SLOW.
 	</div>
-	
+
 	<div class="header-bar">
 		<header>
 			<a href="#" @href="acylx/index">
@@ -27,6 +27,7 @@
 			<div class="container">
 				<!-- TODO: FIX THIS FUCKING MESS -->
 				<!-- TODO: Add links -->
+				<!-- MAYBE: Use a list and js to break the single list into two item lists at runtime -->
 				<b>::Articles.</b>
 				<div class="content">
 					<button>Programming</button>
@@ -54,14 +55,29 @@
 		</div>
 	</div>
 
-	<h2>::Feed.</h2>
+	<main>
+		<div class="title">
+			<h2>::Feed.</h2>
+		</div>
 
-	<h3>'(Lisp, the language of the '(past future))</h3><br>
-	<p>Lisp is a programming language that originated in the 60s, being one of the first high-level languages still in
-		use, following Fortran. The defining feature of this language is its syntax filled with parentheses, stemming from
-		its origins as a calculus language implementing the ideas of Alonzo Church's lambda calculus. Lisp also pioneered
-		several areas of computer science, such as tree-based data structures, garbage collection, dynamic types,
-		conditionals, higher-order functions, recursion, self-hosting compilers, and the REPL.</p>
+
+		<div class="content">
+			<h3>'(Lisp, the language of the '(past future))</h3><br>
+			<p>Lisp is a programming language that originated in the 60s, being one of the first high-level languages still in
+				use, following Fortran. The defining feature of this language is its syntax filled with parentheses, stemming
+				from
+				its origins as a calculus language implementing the ideas of Alonzo Church's lambda calculus. Lisp also
+				pioneered
+				several areas of computer science, such as tree-based data structures, garbage collection, dynamic types,
+				conditionals, higher-order functions, recursion, self-hosting compilers, and the REPL.</p>
+		</div>
+
+		<div class="meta">
+			boobs
+		</div>
+
+	</main>
+
 
 </body>
 

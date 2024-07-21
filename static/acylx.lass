@@ -4,7 +4,12 @@
 
 
 (:let ((header-height "185px")
+
+	   ;; Colors
+	   (black-1 "#322918")
 	   (orange-1 "#fda925")
+	   (orange-2 "#fd7e22")
+	   (green-1 "#abd022")
 	   (grey-1 "#333")
 	   (grey-2 "#ccc")
 	   (white-1 "#e6ebe4")
@@ -46,10 +51,51 @@
   (body
    :margin 0
    :background-color #(white-1)
-   :font-family ChakraPetch-Regular)
+   :font-family ChakraPetch-Regular
+   (main
+	:z-index 1
+	:position relative
+	:padding 20px
+	:border-radius 8%
+	:margin 20%
+	:margin-top 5%
+	:display grid
+	:grid-template-columns " 0.4fr 1fr"
+	:grid-template-rows " 0.3fr 1fr"
+	:background-color white
+	:gap " 8vh 0px"
+	:grid-auto-flow row
+	(.meta
+	 :margin-left 15%
+	 :padding 10%
+	 :color white
+	 :padding-top 30%
+	 :grid-area meta
+	 :background-color #(black-1)
+	 :clip-path " polygon(0 55px, 40% 0, 100% 0, 100% 100%, 80px 100%, 0% 95%)"
+	 (a
+	  :color white
+	  :text-decoration none)
+	 (ul
+	  :margin-top 0))
+	(.content
+	 :padding 10%
+	 :gap 0 2%
+	 :margin 0
+	 :grid-area content
+	 :background-color #(orange-2)
+	 :clip-path " polygon(0 0, 80% 0, 80% 50px, 90% 100px, 85% 100px, 100% 100px, 100% 90%, 80% 100%, 0 100%)"
+	 :border-radius 0
+	 :grid-template-columns 50%)
+	(.title
+	 :padding-left 10%
+	 :margin-right 20%
+	 :background-color #(green-1)
+	 :grid-area title
+	 :clip-path "polygon(0 0, 60% 0, 100% 100%, 0% 100%)")))
   (.container
-   :padding 5%
-   :padding-right 0%
+   :padding 0.8em
+   :padding-right 0
    :background-color #(teal-2)
    :clip-path " polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0)"
    :flex-shrink 0
@@ -59,9 +105,9 @@
    ;; TODO: Fix padding so it's not relative to the container's size
    ;; WHY THE FUCK THE BUTTONS CLICK REGION ISN'T IN THE BUTTON
    (.content
-	:padding-left 5%
+	:padding-left 0.5em
 	:margin-right 1em
-	:padding-top 5%
+	:padding-top 0.5em
 	:display flex
 	:flex-direction row
 	:flex-wrap wrap

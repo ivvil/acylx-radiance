@@ -15,7 +15,7 @@
 	(concatenate 'string "static/acylx-radiance/" (subseq path (+ (search "static/" path)
 					(length "static/"))))))
 
-(define-page index "acylx/index" (:clip "index.ctml")
+(define-page index "acylx/" (:clip "index.ctml")
   (r-clip:process T))
 
 (define-page web-fonts ("acylx/wf/(.+)" 1001) (:uri-groups (path))
