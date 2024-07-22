@@ -1,0 +1,46 @@
+#+author: Iván Villagrasa
+#+title: Acylx
+#+email: ivvil412@gmail.com
+
+A port of my personal web page [[https://github.com/ivvil/acylx][acylx]] to [[https://shirakumo.github.io/radiance/][radiance]]
+
+* What's left
+
+** TODO Generalize the header bar and footer
+
+The navbar uses a pretty specific styling, using multiple two item lists. Having to update the navbar in each template when I want to change it is stupid.
+
+*** TODO Generate the HTML
+
+*** TODO Model how should you interact with it from lisp
+
+** TODO Add caching
+
+Closest thing we can do to static site generation, pre-generate all the pages before serving them, like in [[https://github.com/Shirakumo/reader][Reader]]
+
+** TODO Low barrier for publishing articles
+
+*** TODO Use a simple file system based article storage
+
+#+begin_example                                                                                
+   Articles                             
+   ├── User 1                           
+   └── User 2                           
+       ├── Article 1.org
+       └── Article 2.org                    
+#+end_example
+
+Uploading a new article would be just copying a file into a specific directory.
+
+**** TODO Watch the directory for changes and keep an inventory of the articles
+
+Using a database we can keep an inventory of the existing articles, and any changes to them. Maybe the biggest challenge in this approach is managing updating posts, maybe the adding of a UUID could help with this.
+
+*** TODO Use a secondary markup language for articles
+
+Process either markdown or org to generate the articles for the blog
+
+*** TODO Consider building an abstraction for HTML
+
+Currently using templates to build the website, but a more modular and dynamic abstraction seems like a good idea
+
