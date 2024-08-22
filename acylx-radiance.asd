@@ -17,4 +17,7 @@
 			   )
   :depends-on (:r-clip
 			   :lass
-			   :spinneret))
+			   :spinneret
+			   :3bmd
+			   :3bmd-ext-code-blocks
+			   :alexandria))

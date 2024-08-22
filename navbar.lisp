@@ -32,7 +32,7 @@
 (defmethod render ((renderable link))
   (make-link (name renderable) (link renderable)))
 
-(defmethod render ((renderable navbar-group))
+(defmethod render ((renderable navbar-group)) ;TODO: Break links into lists of two links
   (let ((links (mapcar 'render (links renderable))))
 	`(:div
 	  :class "container"

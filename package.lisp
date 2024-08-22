@@ -3,4 +3,4 @@
 (in-package #:rad-user)
 
 (define-module #:acylx-radiance
-  (:use #:cl #:radiance #:spinneret))
+  (:use #:cl #:radiance #:spinneret #:alexandria))

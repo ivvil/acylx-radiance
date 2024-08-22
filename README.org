@@ -12,13 +12,13 @@ The navbar uses a pretty specific styling, using multiple two item lists. Having
 
 *** TODO Generate the HTML
 
-*** TODO Model how should you interact with it from lisp
+*** DONE Model how should you interact with it from lisp
 
 ** TODO Add caching
 
 Closest thing we can do to static site generation, pre-generate all the pages before serving them, like in [[https://github.com/Shirakumo/reader][Reader]]
 
-** TODO Low barrier for publishing articles
+** TODO Article publishing
 
 *** TODO Use a simple file system based article storage
 
